@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Data Pasien Rumah Sakit</title>
+    </head>
+    <body>
+        <form action="http://127.5.4.3:3000/api/pasien" method="POST">
+            ID : <input type="text" name="id">
+            <br>
+            Nama : <input type="text" name="name">
+            <br>
+            No Hp : <input type="text" name="noHp">
+            <br>
+            Kamar : <input type="text" name="idKamar">
+            <br>
+            Lantai : <input type="number" name="lantai">
+            <br>
+            Check In : <input type="date" name="in">
+            <br>
+            Check Out : <input type="date" name="out">
+            <br> <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
